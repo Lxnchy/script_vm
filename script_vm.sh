@@ -51,7 +51,7 @@ sudo nft -f /etc/nftables.conf
 echo "Pare-feu configuré."
 
 echo "Installation des paquets nécessaires pour Docker..."
-sudo apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release
+sudo apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release git make
 
 echo "Ajout de la clé GPG Docker..."
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
