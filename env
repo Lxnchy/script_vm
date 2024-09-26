@@ -14,8 +14,3 @@ WP_PASSWORD=beaurat123
 WP_EMAIL=albert@gmail.com
 WP_ROLE=editor
 WP_FULL_URL=https://jehubert.42.fr
-
-CERTIFICATE=/etc/nginx/ssl/cert.pem
-CERT_FOLDER=/etc/nginx/ssl/
-KEY=/etc/nginx/ssl/key.pem
-COMMON_NAME=jehubert.42.fr
