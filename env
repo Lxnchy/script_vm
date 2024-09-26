@@ -1,21 +1,21 @@
-DB_NAME=db
-DB_USER=db_user
-DB_PASSWORD=db_pass
-DB_ROOT_PASSWORD=db_root_pass
+DB_NAME=maria_db
+DB_USER=jean
+DB_PASSWORD=beaurat123
+DB_ROOT_PASSWORD=bellesouris456
 DB_HOST=mariadb
 
 WP_URL=jehubert.42.fr
 WP_TITLE=Inception
-WP_ADMIN_USER=wp_admin
-WP_ADMIN_PASSWORD=wp_admin_pass
-WP_ADMIN_EMAIL=wp_admin@gmail.com
-WP_USER=wp_user
-WP_PASSWORD=wp_password
-WP_EMAIL=wp_user@gmail.com
+WP_ADMIN_USER=jean
+WP_ADMIN_PASSWORD=bellesouris456
+WP_ADMIN_EMAIL=jean@gmail.com
+WP_USER=albert
+WP_PASSWORD=beaurat123
+WP_EMAIL=albert@gmail.com
 WP_ROLE=editor
 WP_FULL_URL=https://jehubert.42.fr
 
-CERT_FOLDER=/etc/nginx/ssl/
 CERTIFICATE=/etc/nginx/ssl/cert.pem
+CERT_FOLDER=/etc/nginx/ssl/
 KEY=/etc/nginx/ssl/key.pem
 COMMON_NAME=jehubert.42.fr
